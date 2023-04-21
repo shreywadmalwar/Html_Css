@@ -11,7 +11,7 @@ body {
   /* flex-direction: row-reverse; */
   /* flex-wrap: wrap; */
 
-  /* height: 800px; */
+  height: 400px;
 
   /* flex-flow: row nowrap; */
   /* flex-flow: row-reverse wrap ; */
@@ -38,6 +38,8 @@ body {
   align-content: center;
   align-content: space-around;
   align-content: space-between; */
+  /* align-self: stretch; */
+  
 }
 
 .flex-item {
@@ -51,6 +53,7 @@ body {
   /* flex-shrink: 0;
   width: 6rem; */
   /* flex: 2 2 200px; */
+  align-self: flex-end;
 }
 
 /* flex <flex-grow> <flex-shrink> <flex-basis> */
