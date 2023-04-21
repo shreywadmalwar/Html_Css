@@ -14,7 +14,7 @@ body {
   height: 400px;
 
   /* flex-flow: row nowrap; */
-  /* flex-flow: row-reverse wrap ; */
+  /* flex-flow: row-reverse wrap; */
 
   /* column-gap: 20px;
     row-gap: 20px; */
@@ -48,8 +48,10 @@ body {
   padding: 1 rem;
   text-align: center;
   /* flex-grow: 1; */
+  
   /* flex-grow value of 1 - flex item grow evenly 
   inside the flex container to take up available space */
+  
   /* flex-shrink: 0;
   width: 6rem; */
   /* flex: 2 2 200px; */
