@@ -9,9 +9,9 @@ body {
   /* flex-direction: column-reverse; */
   /* flex-direction: row; */
   /* flex-direction: row-reverse; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 
-  height: 800px;
+  /* height: 800px; */
 
   /* flex-flow: row nowrap; */
   /* flex-flow: row-reverse wrap ; */
@@ -31,15 +31,13 @@ body {
   /* align-items: flex-end; */
   /* align-items: baseline; */
   /* align-items: center; */
-  
-  align-content: stretch;
+
+  /* align-content: stretch;
   align-content: flex-start;
   align-content: flex-end;
   align-content: center;
   align-content: space-around;
-  align-content: space-between;
-
-
+  align-content: space-between; */
 }
 
 .flex-item {
@@ -47,45 +45,63 @@ body {
   font-size: 1.5rem;
   padding: 1 rem;
   text-align: center;
+  /* flex-grow: 1; */
+  /* flex-grow value of 1 - flex item grow evenly 
+  inside the flex container to take up available space */
+  /* flex-shrink: 0;
+  width: 6rem; */
+  /* flex: 2 2 200px; */
 }
+
+/* flex <flex-grow> <flex-shrink> <flex-basis> */
 
 .item-1 {
   background-color: rgb(143, 143, 48);
-  font-size: 3rem;
+  /* font-size: 3rem; */
+  /* flex-basis: auto; */
   /* padding-bottom: 5rem; */
+  align-self: flex-start;
 }
 .item-2 {
   background-color: rgb(0, 145, 255);
-  font-size: 3rem;
+  /* font-size: 3rem; */
   /* padding-bottom: 4rem; */
+  align-self: flex-end;
 }
 .item-3 {
   background-color: rgb(3, 36, 18);
-  font-size: 3rem;
+  /* font-size: 3rem; */
   /* padding-bottom: 2rem; */
+  /* order: 1; */
+  /* flex-shrink: 3rem; */
+  align-self: stretch;
 }
 .item-4 {
   background-color: rgb(255, 42, 0);
-  font-size: 3rem;
+  /* font-size: 3rem; */
   /* padding-bottom: 3rem; */
+align-self: center;
 }
 .item-5 {
   background-color: rgb(0, 234, 255);
-  font-size: 3rem;
+  /* font-size: 3rem; */
+  /* flex-grow: 1; */
 }
 .item-6 {
   background-color: rgb(0, 255, 38);
-  font-size: 3rem;
+  /* font-size: 3rem; */
+  /* flex-grow: 1; */
 }
 .item-7 {
   background-color: rgb(255, 0, 183);
-  font-size: 3rem;
+  /* font-size: 3rem; */
 }
 .item-8 {
   background-color: rgb(0, 60, 255);
-  font-size: 3rem;
+  /* font-size: 3rem; */
 }
 .item-9 {
   background-color: rgb(67, 93, 51);
-  font-size: 3rem;
+  /* font-size: 3rem; */
+  /* order: 1; */
 }
