@@ -9,39 +9,51 @@
   </head>
   <body>
     <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li class="dropdown">
+            <a href="#">Docs</a>
+            <div class="dropdown_content">
+              <a href="#">Knowledge Base</a>
+              <a href="#">What's New</a>
+            </div>
+          </li>
+          <li><a href="#">Login to Account</a></li>
+          <li><a href="#">Contact & Support</a></li>
+          <li><a href="#">We're Hiring!</a></li>
+        </ul>
+      </nav>
       <div>
         <nav>
           <ul>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Docs</a></li>
-            <li><a href="#">Login to Account</a></li>
-            <li><a href="#">Contact & Support</a></li>
-            <li><a href="#">We're Hiring!</a></li>
-          </ul>
-        </nav>
-      </div>
-
-      <div>
-        <nav>
-          <ul>
+            <li>
+              <button>
+                <img
+                  src="C:\Users\shreyash's PC\Desktop\html_css\img.png"
+                  alt="Logo"
+                />
+              </button>
+            </li>
             <li><a href="#">Starter Template</a></li>
             <li><a href="#">Pro</a></li>
             <li><a href="#">Features</a></li>
             <li><a href="#">WooCommerce</a></li>
             <li><a href="#">Testimonials</a></li>
             <li><a href="#">Price</a></li>
-            <li><a href="#">Download</a></li>
+            <li><button class="button_download"><a href="#">Download</a></button></li>
           </ul>
         </nav>
       </div>
       <div>
         <h1>Knowledge Base</h1>
         <h2>Search for articles on anything about Astra</h2>
-
-        <div class="search_container">
-          <input type="text" placeholder="Search..." />
-          <button type="submit"></button>
-        </div>
+        <form action="" class="search_bar">
+          <button type="submit">
+            <img src="C:\Users\shreyash's PC\Desktop\html_css\search.png" />
+          </button>
+          <input type="text" placeholder="Search.." />
+        </form>
       </div>
     </div>
   </body>
