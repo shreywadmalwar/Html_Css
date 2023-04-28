@@ -1,0 +1,116 @@
+/* Element selector */
+
+/* h1{
+    color: rgb(0, 255, 238);
+} */
+
+/* universal selector */
+
+/* *{
+    color: rgb(255, 47, 0);
+} */
+
+/* class selector */
+
+.error {
+    color: red;
+  }
+  
+  .sucess {
+    color: green;
+  }
+  
+  /* Id selector */
+  
+  #text {
+    color: maroon;
+  }
+  
+  .orange {
+    background-color: orange;
+    text-align: right;
+    line-height: 2;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .font-style {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 50px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .box-model {
+    border: 1px solid red;
+    height: 50px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  h2 {
+    color: blue;
+  }
+  
+  h2 {
+    color: rgb(127, 78, 4);
+  }
+  h3 {
+    color: red !important;
+  }
+  
+  #title {
+    color: aquamarine;
+  }
+  
+  .inheritance {
+    color: orange;
+    font-size: 30px;
+    font-family: segoe UI;
+  }
+  
+  th,
+  td {
+    border: 1px solid red;
+  }
+  table {
+    border-collapse: collapse;
+    width: 60px;
+  }
+  td {
+    text-align: center;
+  }
+  
+  .content-1 {
+    border: 1px solid red;
+    display: inline;
+  }
+  
+  .content-2 {
+    border: 1px solid blue;
+    display: none;
+  }
+  
+  .position-1{
+      border: 1px solid red;
+      position: static;
+      /* top: 50px;
+      right: 50px; */
+  }
+  
+  .position-2{
+      border: 1px solid red;
+      position: static;
+  }
+  
+  
